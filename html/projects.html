@@ -1,15 +1,20 @@
-Click <a href="#">here</a> for my resume.
+<div id="text-wrapper">
+  <h1>Resume</h1>
+  <p>Click <a href="#">here</a> for my resume.</p>
 
-<h1>Projects</h1>
-<h3><a href="#">Sweet Talk</a></h3>
-<p><i>Skills:</i>Rails, OOJS, HTML/CSS, AJAX, MVC, Web scraping (Nokogiri/Mechanize)</p>
-<p><i>Struggles/Accomplishments</i>: </p>
+  <h1>Projects</h1>
+  <h3><a href="#">Sweet Talk</a></h3>
+  <p><i>Skills:</i>Rails, OOJS, HTML/CSS, AJAX, MVC, Web scraping (Nokogiri/Mechanize)</p>
+  <p><i>Struggles/Accomplishments</i>: This was the first time I played around with web scraping. I first used Nokogiri, but switched over to Mechanize (which itself uses Nokogiri) in order to extract material from a site's HTML. I struggled with creating the algorithm to scrape from multiple sub-pages after starting from a single main page that contained 205 love poems. I used Mechanize and an "until loop" in order to create an iterative algorithm that would scrape from each sub-page and then return to the main page, while a "master" array collected all the words from all love poems so far. Using this, I sorted all the words in descending frequency, grabbed the 300 most commonly occuring words, shuffled them, and spat it out in my custom, romantic ipsum.
 
-<h3><a href="#">DBC Connect</a></h3>
-<p><i>Skills:</i>Rails, OOJS, HTML/CSS, AJAX, MVC, Web scraping (Nokogiri/Mechanize)</p>
-<p><i>Struggles/Accomplishments</i>: </p>
+  This project was also a great opportunity to exercise my front-end skills, and I had a lot of fun with it. Admittedly, HTML/CSS wasn't my strong suit during my time at DBC, and I used this project as an opportunity to become stronger in this area.</p>
 
-<h3><a href="#">Survey Domo</a></h3>
-<p><i>Skills:</i>Rails, OOJS, HTML/CSS, AJAX, MVC, Web scraping (Nokogiri/Mechanize)</p>
-<p><i>Struggles/Accomplishments</i>: </p>
+  <h3><a href="http://dbcconnect.herokuapp.com">DBC Connect</a></h3>
+  <p><i>Skills:</i>Rails, OOJS, HTML/CSS, AJAX, MVC, Web scraping (Nokogiri/Mechanize)</p>
+  <p><i>Struggles/Accomplishments</i>: This was our final project at Dev Bootcamp and it is a platform for DBC Alumni to set up pairing sessions and to stay in touch. I was responsible for the search bar functionality and rendering the user profile CRUD functions onto a single-page app using AJAX requests and OOJS. For the search bar, we wanted the user to be able to enter in a term and our search engine would return any alumni whose profile contained that search term. I found the PgSearch gem to be useful for this, as it searched across fields in our database and returned any instances that contained the search term. One struggle I had was  </p>
+
+  <h3><a href="http://surveydomo.herokuapp.com">Survey Domo</a></h3>
+  <p><i>Skills:</i>Rails, OOJS, HTML/CSS, AJAX, MVC, Web scraping (Nokogiri/Mechanize)</p>
+  <p><i>Struggles/Accomplishments</i>: </p>
+</div>
 
