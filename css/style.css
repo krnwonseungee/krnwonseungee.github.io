@@ -39,21 +39,33 @@ body {
   display: block;
   padding-top: 15px;
   margin-bottom: 23px;
-  font-size: 15px;
+  font-size: 21px;
   text-align: center;
+}
+
+#collages {
+  /*margin: 0 auto;*/
+  /*text-align: center;*/
+  width: 500px;
+}
+
+#collages img{
+  height: 300px;
+  /*display: inline-block;*/
+  /*margin: 0 auto;*/
 }
 
 .navbar ul {
   float: center;
   margin: 0;
-  padding: 0;
   display: block;
+  padding-left: 55px;
 }
 
 .navbar li {
   display: inline-block;
   list-style: none;
-  padding: 0 58px 0 58px;
+  padding: 0 65px 0 65px;
 }
 
 .name {
