@@ -1,5 +1,20 @@
 body {
+  background-color: black;
+}
 
+.name h1 {
+  color: white;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 55px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.navbar a, .footer, .name p {
+  color: #edb649;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .background {
@@ -9,14 +24,13 @@ body {
   /*background-color: purple;*/
   width: 100%;
   height: 550px;
-  z-index: -2;
+  z-index: 1;
   position: relative;
 }
 
 #bg-pic {
   width: 100%;
   position: relative;
-  z-index: -2;
 }
 
 .navbar {
@@ -39,12 +53,11 @@ body {
 .navbar li {
   display: inline-block;
   list-style: none;
-  padding: 8px;
+  padding: 0 58px 0 58px;
 }
 
 .name {
   text-align: center;
-  font-size: 40px;
 }
 
 .footer {
@@ -53,6 +66,8 @@ body {
   display: block;
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 18px;
 }
 
 .footer ul, .contact ul  {
@@ -69,7 +84,7 @@ body {
   width: 85%;
   margin: 0 auto;
   height: 500px;
-  z-index: 5;
+  z-index: 2;
   background: rgba(255, 255, 255, 0.2);
   padding: 10px 12px 0 12px;
 }
@@ -82,7 +97,7 @@ body {
 .contact {
   font-size: 25px;
   position: absolute;
-  margin-left: 80%;
+  margin-left: 85%;
   float: right;
 }
 
