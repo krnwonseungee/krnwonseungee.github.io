@@ -44,15 +44,15 @@ body {
 }
 
 #collages {
-  /*margin: 0 auto;*/
-  /*text-align: center;*/
+  margin: 0 auto;
+  text-align: center;
   width: 500px;
 }
 
 #collages img{
   height: 300px;
-  /*display: inline-block;*/
-  /*margin: 0 auto;*/
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .navbar ul {
@@ -133,4 +133,12 @@ body {
   float: right;
   width: 55%;
   padding-top: 30px;
+}
+
+#pictures-list {
+  visibility: hidden;
+}
+
+#selected-country {
+  visiblity: visible;
 }
