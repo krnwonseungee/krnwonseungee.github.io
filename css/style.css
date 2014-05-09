@@ -114,7 +114,9 @@ body {
 
 #travel-text p {
   text-align: center;
-  fot-style: bold;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 15px;
 }
 
 #text-wrapper {
