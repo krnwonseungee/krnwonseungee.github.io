@@ -76,6 +76,7 @@ a:hover.slidesjs-stop {
   background-position: 0 0;
   float: left;
   overflow: hidden;
+  margin-top: 50px;
 }
 
 .slidesjs-pagination li a.active,
