@@ -2,6 +2,11 @@
   display: none
 }
 
+#slides img {
+  height: 60%;
+  width: 60%;
+}
+
 #slides .slidesjs-navigation {
   margin-top:5px;
 }
