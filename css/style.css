@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+p {
+  font-family: play, sans-serif;
+}
+
 .name h1 {
   color: white;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
@@ -110,6 +114,11 @@ body {
   position: absolute;
   margin-left: 85%;
   float: right;
+}
+
+#travel-text p {
+  text-align: center;
+  fot-style: bold;
 }
 
 #text-wrapper {
