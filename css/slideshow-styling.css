@@ -2,6 +2,10 @@
   display: none
 }
 
+#slides img {
+  height: 60%;
+}
+
 #slides .slidesjs-navigation {
   margin-top:5px;
 }
@@ -76,7 +80,6 @@ a:hover.slidesjs-stop {
   background-position: 0 0;
   float: left;
   overflow: hidden;
-  margin-top: 50px;
 }
 
 .slidesjs-pagination li a.active,
