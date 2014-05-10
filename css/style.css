@@ -124,10 +124,10 @@ body {
   padding-left: 40px;
 }
 
-a:hover {
+#text-wrapper a:hover {
     position: relative;
 }
-a#dbcconnect:hover:after {
+#dbcconnect a:hover:after {
     content: url(../img/screenshots/dbcconnect.png);
     display: block;
     position: absolute;
@@ -135,7 +135,7 @@ a#dbcconnect:hover:after {
     top: -12px;  /*56*/
 }
 
-a#surveydomo:hover:after {
+#surveydomo a:hover:after {
     content: url(../img/screenshots/surveydomo.png);
     display: block;
     position: absolute;
@@ -143,7 +143,7 @@ a#surveydomo:hover:after {
     top: -12px;  /*56*/
 }
 
-a#sweettalk:hover:after {
+#sweettalk a:hover:after {
     content: url(../img/screenshots/sweettalk.png);
     display: block;
     position: absolute;
