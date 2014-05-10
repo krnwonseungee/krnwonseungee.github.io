@@ -131,24 +131,24 @@ a#dbcconnect:hover:after {
     content: url(../img/screenshots/dbcconnect.png);
     display: block;
     position: absolute;
-    left: 153px; /*123*/
-    top: -12px;  /*56*/
+    left: 250px; /*123*/
+    /*top: 0px;  /*56*/*/
 }
 
 a#surveydomo:hover:after {
     content: url(../img/screenshots/surveydomo.png);
     display: block;
     position: absolute;
-    left: 153px; /*123*/
-    top: -12px;  /*56*/
+    left: 250px; /*123*/
+    /*top: -12px;  /*56*/*/
 }
 
 a#sweettalk:hover:after {
     content: url(../img/screenshots/sweettalk.png);
     display: block;
     position: absolute;
-    left: 133px; /*123*/
-    top: -12px;  /*56*/
+    left: 250px; /*123*/
+    /*top: -12px;  /*56*/*/
 }
 
 #picture {
