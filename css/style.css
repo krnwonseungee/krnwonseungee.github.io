@@ -130,12 +130,16 @@ body {
   padding-bottom: 15px;
 }
 
-#text-wrapper {
+#project-text {
   height: 300px;
   padding-left: 40px;
 }
 
-a#text-wrapper:hover {
+#project-text a:link {
+  color:#333333;
+}
+
+a#project-text:hover {
     position: relative;
 }
 a#dbcconnect:hover:after {
