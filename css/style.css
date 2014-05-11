@@ -12,7 +12,7 @@ body {
 }
 
 .navbar a, .footer, .name p {
-  color: #edb649;
+  color: #EDB649;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
@@ -100,16 +100,27 @@ body {
   padding: 10px 12px 0 12px;
 }
 
-.footer li, .contact li {
-  font-color: #E270AA;
-  display: inline-block;
-}
-
 .contact {
-  font-size: 25px;
+  font-size: 28px;
   position: absolute;
   margin-left: 85%;
   float: right;
+}
+
+.footer li, .contact li {
+  display: inline-block;
+}
+
+.navbar a:hover {
+  color:#BE923A;
+}
+
+.footer a:link, .contact a:link, .footer a:visited, .contact a:visited  {
+  color:#CFCFCF;
+}
+
+.footer a:hover, .contact a:hover {
+  color:white;
 }
 
 #travel-text p {
